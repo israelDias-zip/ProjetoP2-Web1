@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
-import ProductCard from '../../components/ProductCard';
-import SearchBar from '../../components/SearchBar';
+import ProductCard from '../../components/ProductCard/page';
+import SearchBar from '../../components/SearchBar/page';
 import styles from './produtos.module.css';
 
 export default function Produtos() {
