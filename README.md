@@ -1,39 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 ProjetoP2-Web1
 
-## Getting Started
+> Projeto desenvolvido como parte da disciplina de **Desenvolvimento Web 1**, utilizando Next.js com App Router e TypeScript.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📋 Sobre o Projeto
+
+Aplicação web desenvolvida com **Next.js 15** e **TypeScript**, estruturada com o padrão de **App Router**. O projeto aplica conceitos de desenvolvimento front-end moderno, incluindo componentização, roteamento client-side, estilização com CSS modular e boas práticas de organização de código.
+
+---
+
+## 🚀 Tecnologias
+
+| Tecnologia | Versão | Uso |
+|---|---|---|
+| [Next.js](https://nextjs.org/) | 15.x | Framework React com SSR/SSG |
+| [React](https://react.dev/) | 19.x | Biblioteca de UI |
+| [TypeScript](https://www.typescriptlang.org/) | 5.x | Tipagem estática |
+| [CSS Modules](https://github.com/css-modules/css-modules) | — | Estilização escopada |
+| [ESLint](https://eslint.org/) | 9.x | Linting e qualidade de código |
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+```
+ProjetoP2-Web1/
+├── app/                  # Rotas e páginas (App Router)
+│   ├── layout.tsx        # Layout raiz da aplicação
+│   └── page.tsx          # Página inicial
+├── components/           # Componentes reutilizáveis
+├── public/               # Arquivos estáticos (imagens, ícones)
+├── next.config.ts        # Configurações do Next.js
+├── tsconfig.json         # Configurações do TypeScript
+├── eslint.config.mjs     # Configurações do ESLint
+└── package.json          # Dependências e scripts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Como Rodar Localmente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Pré-requisitos
 
-## Learn More
+- [Node.js](https://nodejs.org/) >= 18.x
+- npm, yarn, pnpm ou bun
 
-To learn more about Next.js, take a look at the following resources:
+### Passo a passo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**1. Clone o repositório**
+```bash
+git clone https://github.com/israelDias-zip/ProjetoP2-Web1.git
+cd ProjetoP2-Web1
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**2. Instale as dependências**
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+```
 
-## Deploy on Vercel
+**3. Inicie o servidor de desenvolvimento**
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**4. Acesse no navegador**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Abra [http://localhost:3000](http://localhost:3000) para visualizar a aplicação.
 
+---
 
-Teste readme
+## 📜 Scripts Disponíveis
+
+```bash
+npm run dev      # Inicia o servidor em modo desenvolvimento com hot-reload
+npm run build    # Gera o build otimizado para produção
+npm run start    # Inicia o servidor com o build de produção
+npm run lint     # Analisa o código com ESLint
+```
+
+---
+
+## 🌐 Deploy
+
+O projeto está disponível em produção na **Vercel**:
+
+🔗 **[Acesse aqui → URL_DO_DEPLOY](https://URL_DO_DEPLOY.vercel.app)**
+
+O deploy é feito automaticamente a cada push na branch `main` via integração com o GitHub. A [Vercel](https://vercel.com) é a plataforma oficial de deploy do Next.js e oferece CDN global, HTTPS automático e previews por branch.
+
+Consulte a [documentação oficial de deploy do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
+
+---
+
+## 📚 Recursos e Aprendizado
+
+Para aprofundar nos conceitos utilizados neste projeto:
+
+- [Documentação do Next.js](https://nextjs.org/docs) — funcionalidades e API completa
+- [Tutorial interativo do Next.js](https://nextjs.org/learn) — aprenda Next.js na prática
+- [Otimização de fontes com next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) — como o projeto carrega a fonte [Geist](https://vercel.com/font)
+- [Repositório do Next.js no GitHub](https://github.com/vercel/next.js)
+
+---
+
+## 👥 Contribuidores
+
+| # | Contribuidor | GitHub |
+|---|---|---|---|
+| 🥇 | Israel Dias | [@israelDias-zip](https://github.com/israelDias-zip) |
+| 🥈 | Lucas Campos Ferreira | [@LucasCamposFerreira](https://github.com/LucasCamposFerreira) |
+| 🥉 | João Paulo | [@Joaopauloengsoft](https://github.com/Joaopauloengsoft) |
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos como parte da disciplina de **Desenvolvimento Web 1**.
+
+---
