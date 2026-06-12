@@ -114,11 +114,11 @@ Para aprofundar nos conceitos utilizados neste projeto:
 
 ## 👥 Contribuidores
 
-| # | Contribuidor | GitHub |
-|---|---|---|---|
-| 🥇 | Israel Dias | [@israelDias-zip](https://github.com/israelDias-zip) |
-| 🥈 | Lucas Campos Ferreira | [@LucasCamposFerreira](https://github.com/LucasCamposFerreira) |
-| 🥉 | João Paulo | [@Joaopauloengsoft](https://github.com/Joaopauloengsoft) |
+Israel Dias | [@israelDias-zip](https://github.com/israelDias-zip)
+
+Lucas Campos Ferreira | [@LucasCamposFerreira](https://github.com/LucasCamposFerreira)
+
+João Paulo | [@Joaopauloengsoft](https://github.com/Joaopauloengsoft) 
 
 ---
 
